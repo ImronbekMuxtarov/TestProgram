@@ -3,6 +3,8 @@ package org.example.testprogram.controller;
 import lombok.RequiredArgsConstructor;
 import org.example.testprogram.dto.tech.TechRequestDTO;
 import org.example.testprogram.dto.tech.TechResponseDTO;
+import org.example.testprogram.entity.Test;
+import org.example.testprogram.repository.TechRepository;
 import org.example.testprogram.service.TechService;
 import org.springframework.web.bind.annotation.*;
 
